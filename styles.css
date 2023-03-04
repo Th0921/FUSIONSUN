@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    cursor: pointer;
+    width: 459px;
+    height: 33px;
+    left: 406px;
+    top: 20px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.links:hover {
+    box-shadow: 5px 5px 5px rgb(153, 149, 149);
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    background-color: #FDA406;
+    color: #0174BD;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 26px;
+    border-radius: 5px;
+    text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+}
+
+.linha-vertical {
+    height: 20px;
+    border-right: 2px solid black;
+}
+
+.fusionsun-logo {
+    position: absolute;
+    width: 71px;
+    height: 41px;
+    left: 310px;
+    top: 16px;
+}
+
+.title-one {
+    position: absolute;
+    width: 578px;
+    height: 77px;
+    left: 326px;
+    top: 119px;
+    font-family: 'Jockey One';
+    font-style: normal;
+    font-weight: 400%;
+    font-size: 55px;
+    line-height: 77px;
+    color: #0174BD;
+
+}
+
+.container {
+    background: #FDA406;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    left: 0px;
+    top: 184px;
+    justify-content: center;
+}
+
+.paragrafo-container {
+    position: absolute;
+    width: 519px;
+    height: 144px;
+    left: 381px;
+    top: 8%;
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+
+}
+
+#arrow1 {
+    position: fixed;
+    bottom: 75px;
+    right: 50px;
+    width: 50px;
+}
+
+
+.video {
+    position: absolute;
+    width: 432px;
+    height: 221px;
+    left: 424px;
+    top: 35%;
+    text-align: center;
+}
+
+.logo-whatsapp {
+    width: 53px;
+    height: 54px;
+    left: 1189px;
+    top: 75%;
+    position: fixed;
+}
+
+.button {
+    position: absolute;
+    width: 368px;
+    height: 43px;
+    left: 448px;
+    top: 480px;
+    border-radius: 28px;
+    background-color: #0174BD;
+    font-family: 'Jockey One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
+    color: #FEA407;
+    border: none;
+    cursor: pointer;
+
+}
+
+.placa {
+
+    position: absolute;
+    width: 1341.7px;
+    height: 878.5px;
+    left: -900px;
+    top: -270px;
+    opacity: 0.98;
+    filter: blur(2px);
+    transform: rotate(19.96deg);
+}
+
+@media screen and (max-width: 500px) {
+   
+    .header {
+        width: 200px;
+        height: 20px;
+        position: absolute;
+        top: 35px;
+        left: 120px;
+        font-size: 10px;
+        align-items: center;
+    }
+
+    .fusionsun-logo {
+        position: absolute;
+        top: 35px;
+        left: 60px;
+        width: 50px;
+        height: 30px;
+    }
+    .title-one {
+        position: absolute;
+        top: 120px;
+        left: 80px;
+        font-size: 25px;
+    }
+
+    .container { 
+        width: 460px;
+        height: 844px;
+    }
+
+    .paragrafo-container {
+        left: 71px;
+        font-size: 14px;
+        width: 300px;
+        height: 144px;
+    }
+
+    .video {
+        width: 232px;
+        height: 221px;
+        left: 100px;
+    }
+
+    .button {
+        width: 268px;
+        height: 33px;
+        left: 90px;
+        top: 580px;
+        font-size: 15px;
+    }
+    .logo-whatsapp {
+        width: 33px;
+        height: 24px;
+        right: 0;
+        top: 80%;
+        left: 350px;
+        position: absolute;
+    }
+    
+    #arrow1 {
+        bottom: 500px;
+        right: 270px;
+        width: 40px;
+    }
+
+    .placa {
+        width: 900px;
+        height: 1000px;
+        left: -500px;
+        top: -70px;
+    }
+
+
+
+}
